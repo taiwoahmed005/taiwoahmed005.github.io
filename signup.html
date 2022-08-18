@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body{
+        background-color: yellowgreen;
+        letter-spacing: 1px;
+    }
+    .log {
+    background-color: black;
+    margin: 0 0;
+    border: 20px;
+    padding: 20px;
+    text-align: center;
+    }
+ul.log a{
+  margin: 20px;
+  background-color: black;
+  color: white;  
+}
+h1.login{
+    margin: 1px 300px;
+}
+form label{
+    margin: 0 0px; 
+    font-weight:bolder ;
+    text-align: justify;
+}
+form a{
+    margin: 0 20px;
+    font-weight: bold;
+}
+.submit{
+    text-align: center;
+background-color: blue;
+display: inline-block;
+color: blue;
+} 
+.join{
+    background: black;
+    margin:0 0;
+    padding: 10px;
+}
+footer{
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+}
+</style>
+    <title>Document</title>
+</head>
+<body>
+        <ul class="log">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="signup.html">Join now</a>
+            <a href="explore.html">Explore</a>
+        </ul>
+<h1></h1>
+    <form action="">
+        <label for="first name">FIRST NAME:</label>
+        <input type="text" id="first name" name="first name" placeholder="enter your name" required>
+        <label for="last name">LAST NAME:</label>
+        <input type="text" id="last name" name="last name" placeholder="enter your name" required>
+        <br><br>
+        <label for="username">USERNAME:</label>
+        <input type="text" id="username" name="username" placeholder="enter username" required>
+        <label for="password">PASSWORD:</label>
+        <input type="password" id="password" name="password" placeholder="0 0 0 0 0" required>
+        <br><br>
+        <label for="e-mail">E-MAIL:</label>
+        <input type="e-mail" id="e-mail" name="e-mail" placeholder="enter e-mail" required>
+        <label for="phone">PHONE:</label>
+        <input type="tel" id="phone" name="phone" placeholder="09065736481" required>
+        <br><br>
+        <label for="date of birth">DATE OF BIRTH:</label>
+        <input type="date" id="date of birth" name="date of birth" required>
+        <label for="text">ADDRESS:</label>
+        <input type="address" id="address" name="address" >
+        <br>
+
+        <p>GENDER:</p>
+        <input type="radio" name="gender" value="male" id="option 1" required>
+        <label for="option 1">male</label>
+        <input type="radio" name="gender" value="female" id="option 2" required>
+        <label for="option 2">female</label>
+        <input type="radio" name="gender" value="rather not say" id="option 3" required>
+        <label for="option 3">rather not say</label>
+        <br><br>
+        <label for="question">SUGGESTION QUESTION</label>
+        <select name="question" id="question">
+            <option value="q1">Answer all</option>
+            <option value="q2">age</option>
+             <option value="q3">type of house you will like to have</option>
+             <option value="q4">Buyer or Seller</option>
+        </select>
+           <br>
+        <label for="suggestion question answer">Answer:</label>
+        <textarea name="answer" id="answer" cols="30" rows="1" required></textarea>
+        <br><br>
+        <label for="bio">COMMENT</label>
+        <br>
+        <textarea name="bio" id="bio" cols="50" rows="3" placeholder="What You want......."></textarea> 
+        <br><br>
+        <input type="submit" value="SUBMIT">
+        <a href="Login.html">Already have an account</a>
+    </form>
+    <br><br>
+    <footer class="join">
+        <p class="copyright">
+            copyright 2022 pristage properties limited.
+        </p>
+    </footer>
+</body>
+</html>
